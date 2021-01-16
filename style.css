@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
+
+* {
+  box-sizing: border-box; /* when we add any border or padding to an element it won't affect it's width */
+}
+
+body {
+  background-color: rgb(63, 63, 63);
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+  margin-right: 1em;
+}
+
+.btn {
+  background-color: rgb(87, 87, 87);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(172, 172, 172);
+}
